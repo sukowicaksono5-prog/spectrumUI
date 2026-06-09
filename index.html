@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spectrum DJ Visualizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="panel">
+  <div class="time">3.44</div>
+  <div class="date">Sel, 9 Jun</div>
+
+  <div class="grid">
+    <div class="card wifi">Spectrum DJ</div>
+    <div class="card">Data Seluler</div>
+    <div class="card small">Mode Senyap</div>
+    <div class="card small">Senter</div>
+    <div class="card small active">Lokasi</div>
+    <div class="card small">Mode Pesawat</div>
+  </div>
+
+  <canvas id="visualizer"></canvas>
+</div>
+
+<audio id="audio" controls>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
